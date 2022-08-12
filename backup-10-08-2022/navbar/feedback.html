@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: cadetblue;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul 
+        {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            margin-top: 0;
+        }
+        ul li
+        {
+            display: inline-block;
+            padding: 25px 25px;
+        }
+        ul li a 
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="navbar.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+    <h1 align="center" style="color: black; font-size:48px; text-shadow: 1px 2px white;">Provide  Feedback</h1>
+    <hr style="border: solid 2px black; width: 35%">
+    <form name="frm" method="post" style="width: 55%; height: auto; margin: auto;">
+        <input type="text" name="name" placeholder="Enter Your Name *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+        <br><br>
+
+        
+        <input type="text" name="email" placeholder="Enter Your Email *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+        <br><br>
+        
+        <input type="text" name="mobile" placeholder="Enter Your Mobile *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+        <br><br>
+        <textarea name="comment" placeholder="Enter Your Reviews *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%"></textarea>
+        <br><br>
+
+        
+        <input type="submit" name="addreview" value="Send Reviews"  required style="width: 25%; height: auto; margin: auto; padding: 15px;margin-left:15%; background-color: green; border: none; color:white">
+
+        
+        <input type="reset" name="reset" value="Reset"  required style="width: 25%; height: auto; margin: auto; padding: 15px;margin-left:2%; background-color: red; border: none; color:white">
+    </form>
+
+    </p>
+</body>
+</html>

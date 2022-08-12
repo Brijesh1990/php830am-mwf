@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: cadetblue;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul 
+        {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            margin: auto;
+            padding: auto;
+            margin-top: auto;
+            /* position: sticky;
+            top: 0; */
+            position: fixed;
+            margin-top: 0%;
+        }
+        ul li
+        {
+            display: inline-block;
+            padding: 25px 25px;
+        }
+        ul li a 
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="navbar.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="div.html">Div</a></li>
+        <li><a href="register.html">Myaccount</a></li>
+    </ul>
+    <br><br>
+    <h1 align="center" style="color: red; font-size:48px; text-shadow: 1px 2px white;">Create Account</h1>
+
+    <div style="width:30%; height:250px; background-color: rgba(20,0,0,0.2); margin: 5px; float: left; margin-left: 2%;">
+    <h2 align="center">Create Account</h2>
+    <p align="justify" style="padding: 20px">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis et fuga quod, repudiandae vitae fugit nesciunt impedit neque nisi sint rem pariatur unde placeat at veniam aut a doloribus eveniet!</p>
+    </div>
+    
+    <div style="width:60%; height:750px; background-color: rgba(20,0,0,0.2); margin: 5px; float: left; margin-left: 2%;"> <h2 align="center">Register Form</h2>
+    
+    
+        <form name="frm" method="post" style="width: 55%; height: auto; margin: auto;">
+
+            <input type="file" name="photo" placeholder="Enter Your Photo *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+            <br><br>
+            <input type="text" name="name" placeholder="Enter Your Name *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+            <br><br>
+    
+            
+            <input type="text" name="email" placeholder="Enter Your Email *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+            <br><br>
+            <input type="password" name="pass" placeholder="Enter Your Password *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+            <br><br>
+            
+            <input type="text" name="mobile" placeholder="Enter Your Mobile *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+            <br><br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male:<input type="radio" name="gender" value="male" required style="width: auto; height: auto; margin: auto; padding: 15px;margin-left:0">
+
+            Female:<input type="radio" name="gender" value="female" required style="width: auto; height: auto; margin: auto; padding: 15px;margin-left:0">
+            <br><br>
+            <textarea name="address" placeholder="Enter Your Address *" required style="width: 65%; height: auto; margin: auto; padding: 15px;margin-left:15%"></textarea>
+            <br><br>
+    
+            <select  name="state"  required style="width: 72%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+                <option value="">-select state-</option>
+                <option value="">Gujrat</option>
+                <option value="">Uttar pradesh</option>
+
+            </select>
+            <br><br>
+            <select  name="city"  required style="width: 72%; height: auto; margin: auto; padding: 15px;margin-left:15%">
+                <option value="">-select city-</option>
+                <option value="">Rajkot</option>
+                <option value="">Ahemdabad</option>
+
+            </select>
+            <br><br>
+            
+            <input type="submit" name="register" value="Register"  required style="width: 25%; height: auto; margin: auto; padding: 15px;margin-left:15%; background-color: green; border: none; color:white">
+    
+            
+            <input type="reset" name="reset" value="Reset"  required style="width: 25%; height: auto; margin: auto; padding: 15px;margin-left:2%; background-color: red; border: none; color:white">
+        </form>
+    
+    
+    </div>
+
+</body>
+</html>
