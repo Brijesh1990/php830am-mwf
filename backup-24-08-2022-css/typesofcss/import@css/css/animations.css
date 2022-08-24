@@ -1,0 +1,39 @@
+.top-header 
+{
+    margin: 0;
+    animation:fadeInUp;
+    animation-duration: 0.5s;
+}
+.top-header h1 
+{
+    margin: 0;
+    animation:pulse infinite 1s;
+    /* animation-duration: 2s; */
+}
+
+
+.navbar 
+{
+    margin: 0;
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
+.slider 
+{
+    margin: 0;
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
+.content 
+{
+    margin: 0;
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
+
+.footer 
+{
+    margin: 0;
+    animation:fadeInUp;
+    animation-duration: 2s;
+}
