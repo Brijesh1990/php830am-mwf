@@ -1,0 +1,19 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+}
+.product-img
+{
+    max-width: 100%;
+    height: 350px;
+    background-color: skyblue;
+}
+.product-img img
+{
+width: 100%;
+height: 250px;
+margin-top: 10%;
+}
